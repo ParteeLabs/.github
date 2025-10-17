@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🌐 ParteeLabs Website
+    url: https://parteelabs.com
+    about: Visit our main website to learn more about ParteeLabs
+  - name: 💬 GitHub Discussions
+    url: https://github.com/ParteeLabs/community/discussions
+    about: For longer conversations and community discussions
+  - name: 📧 Contact Us
+    url: https://github.com/ParteeLabs/community/discussions/categories/general
+    about: Reach out through discussions for community matters
+  - name: 📋 Code of Conduct
+    url: https://github.com/ParteeLabs/community/blob/main/CODE_OF_CONDUCT.md
+    about: Review our community guidelines and code of conduct

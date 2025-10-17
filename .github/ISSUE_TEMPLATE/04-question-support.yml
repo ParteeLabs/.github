@@ -1,0 +1,117 @@
+name: '❓ Question & Support'
+description: 'Ask questions about ParteeLabs projects, community, or need help'
+title: '[QUESTION] '
+labels: ['question', 'help-wanted']
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got a question? We're here to help! 🙋‍♀️🙋‍♂️
+
+        Please provide as much detail as possible so we can give you the best answer.
+
+  - type: dropdown
+    id: question-category
+    attributes:
+      label: '📂 Question Category'
+      description: "What's your question about?"
+      options:
+        - 'General Information'
+        - 'Product/Service Usage'
+        - 'Technical Implementation'
+        - 'Community Guidelines'
+        - 'Getting Started'
+        - 'Best Practices'
+        - 'Troubleshooting'
+        - 'Documentation'
+        - 'Other'
+    validations:
+      required: true
+
+  - type: textarea
+    id: question-details
+    attributes:
+      label: '❓ Your Question'
+      description: 'What would you like to know?'
+      placeholder: 'Please describe your question in detail...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: context-background
+    attributes:
+      label: '📚 Context & Background'
+      description: 'Provide any relevant context or background information'
+      placeholder: "Help us understand your situation or what you're trying to achieve..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-tried
+    attributes:
+      label: '🔍 What Have You Tried?'
+      description: 'What steps have you already taken to solve this?'
+      placeholder: "Tell us what you've already tried or researched..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: urgency-level
+    attributes:
+      label: '⏰ Urgency Level'
+      description: 'How urgent is this question?'
+      options:
+        - 'Low - No rush, just curious'
+        - 'Medium - Would like an answer soon'
+        - 'High - Blocking my progress'
+        - 'Critical - Urgent help needed'
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected-outcome
+    attributes:
+      label: '🎯 What Would Help?'
+      description: 'What kind of answer or help would be most useful to you?'
+      placeholder: 'Examples, documentation links, step-by-step guide, etc.'
+    validations:
+      required: false
+
+  - type: dropdown
+    id: experience-level
+    attributes:
+      label: '📊 Your Experience Level'
+      description: 'How would you describe your experience with this topic?'
+      options:
+        - 'Complete beginner'
+        - 'Some experience'
+        - 'Intermediate'
+        - 'Advanced'
+        - 'Expert'
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: '📋 Additional Information'
+      description: 'Any other details that might be helpful'
+      placeholder: 'Screenshots, error messages, links, etc.'
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: research-checklist
+    attributes:
+      label: '✅ Before Asking Checklist'
+      description: "Please confirm you've done the following:"
+      options:
+        - label: "I've searched existing issues and discussions"
+          required: true
+        - label: "I've checked available documentation"
+          required: false
+        - label: "I've provided enough context for others to understand"
+          required: true
+        - label: "I'm willing to engage in follow-up discussion"
+          required: true

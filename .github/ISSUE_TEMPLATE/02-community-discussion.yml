@@ -1,0 +1,113 @@
+name: '💬 Community Discussion'
+description: 'Start a discussion about ParteeLabs community, processes, or general topics'
+title: '[DISCUSSION] '
+labels: ['discussion', 'community']
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to our community discussions! 🌟
+
+        This is the place to discuss topics related to ParteeLabs, share insights, ask questions, or engage with the community.
+
+  - type: dropdown
+    id: discussion-type
+    attributes:
+      label: '📢 Discussion Type'
+      description: 'What type of discussion is this?'
+      options:
+        - 'General Discussion'
+        - 'Community Feedback'
+        - 'Process Improvement'
+        - 'Best Practices'
+        - 'Event/Announcement'
+        - 'Question & Answer'
+        - 'Collaboration Opportunity'
+        - 'Other'
+    validations:
+      required: true
+
+  - type: textarea
+    id: topic-description
+    attributes:
+      label: '💭 Topic Description'
+      description: "Describe what you'd like to discuss"
+      placeholder: 'What would you like to discuss with the community?'
+    validations:
+      required: true
+
+  - type: textarea
+    id: background-context
+    attributes:
+      label: '📚 Background & Context'
+      description: 'Provide any relevant background information or context'
+      placeholder: 'Share any background information that would help others understand the topic...'
+    validations:
+      required: false
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: '❓ Specific Questions'
+      description: "Are there specific questions you'd like the community to address?"
+      placeholder: 'List any specific questions you have...'
+    validations:
+      required: false
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: '👥 Target Audience'
+      description: 'Who would you like to engage in this discussion?'
+      options:
+        - 'Everyone in the community'
+        - 'Developers/Contributors'
+        - 'Product Users'
+        - 'Community Leaders'
+        - 'Specific expertise needed'
+        - 'New members'
+    validations:
+      required: false
+
+  - type: textarea
+    id: desired-outcome
+    attributes:
+      label: '🎯 Desired Outcome'
+      description: 'What would you like to achieve from this discussion?'
+      placeholder: 'What outcome are you hoping for from this discussion?'
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-resources
+    attributes:
+      label: '🔗 Related Resources'
+      description: 'Share any relevant links, documents, or references'
+      placeholder: 'Include any helpful links, documents, or references...'
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: engagement-preferences
+    attributes:
+      label: '📝 Engagement Preferences'
+      description: 'How would you like people to engage? (Optional)'
+      options:
+        - label: 'I welcome diverse perspectives and opinions'
+        - label: "I'm looking for constructive feedback"
+        - label: "I'm open to collaboration opportunities"
+        - label: "I'd like to schedule a follow-up meeting/call"
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: '✅ Community Guidelines'
+      description: 'Please confirm:'
+      options:
+        - label: 'I have read and will follow the Code of Conduct'
+          required: true
+        - label: 'I understand this is a public discussion'
+          required: true
+        - label: 'I will engage respectfully with all community members'
+          required: true

@@ -1,0 +1,117 @@
+name: '🤝 Partnership & Collaboration'
+description: 'Propose partnerships, collaborations, or joint initiatives with ParteeLabs'
+title: '[PARTNERSHIP] '
+labels: ['partnership', 'collaboration']
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Interested in partnering or collaborating with ParteeLabs? 🤝
+
+        We're always open to meaningful partnerships that benefit our community and advance our mission.
+
+  - type: input
+    id: organization-name
+    attributes:
+      label: '🏢 Organization/Individual Name'
+      description: "What's the name of your organization or your name if you're an individual?"
+      placeholder: 'Your organization or personal name'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: partnership-type
+    attributes:
+      label: '🤝 Type of Partnership'
+      description: 'What type of partnership are you proposing?'
+      options:
+        - 'Technology Partnership'
+        - 'Content Collaboration'
+        - 'Event Partnership'
+        - 'Research Collaboration'
+        - 'Open Source Contribution'
+        - 'Educational Initiative'
+        - 'Community Cross-promotion'
+        - 'Sponsorship Opportunity'
+        - 'Other'
+    validations:
+      required: true
+
+  - type: textarea
+    id: partnership-description
+    attributes:
+      label: '📋 Partnership Description'
+      description: "Describe the partnership or collaboration you're proposing"
+      placeholder: 'Tell us about your partnership idea...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: mutual-benefits
+    attributes:
+      label: '💡 Mutual Benefits'
+      description: 'How would this partnership benefit both ParteeLabs and your organization?'
+      placeholder: 'Explain the benefits for both parties...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: your-background
+    attributes:
+      label: '🌟 Your Background'
+      description: 'Tell us about your organization, expertise, or relevant experience'
+      placeholder: 'Share your background and what you bring to the partnership...'
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed-timeline
+    attributes:
+      label: '📅 Proposed Timeline'
+      description: 'What timeline are you thinking for this partnership?'
+      placeholder: 'When would you like to start and how long might this partnership last?'
+    validations:
+      required: false
+
+  - type: textarea
+    id: resources-commitment
+    attributes:
+      label: '⚡ Resources & Commitment'
+      description: 'What resources or commitment are you able to provide?'
+      placeholder: 'Describe what you can contribute (time, expertise, funding, platform, etc.)'
+    validations:
+      required: false
+
+  - type: input
+    id: contact-info
+    attributes:
+      label: '📧 Contact Information'
+      description: 'Best way to reach you for follow-up discussions'
+      placeholder: 'Email, LinkedIn, or preferred contact method'
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: '📚 Additional Information'
+      description: 'Any other relevant information, links, or details'
+      placeholder: 'Include any relevant links, portfolio, case studies, etc.'
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: partnership-terms
+    attributes:
+      label: '📝 Partnership Understanding'
+      description: 'Please confirm:'
+      options:
+        - label: 'I understand that not all partnership proposals may be accepted'
+          required: true
+        - label: "I'm committed to following ParteeLabs' values and Code of Conduct"
+          required: true
+        - label: "I'm open to discussing and refining this proposal"
+          required: true
+        - label: 'I have the authority to propose this partnership on behalf of my organization'
+          required: false

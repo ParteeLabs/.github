@@ -1,0 +1,171 @@
+name: '🎉 Community Event'
+description: 'Propose or discuss community events, meetups, workshops, or initiatives'
+title: '[EVENT] '
+labels: ['event', 'community', 'initiative']
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Planning a community event or initiative? That's awesome! 🎉
+
+        Let's work together to make it a great experience for everyone.
+
+  - type: dropdown
+    id: event-type
+    attributes:
+      label: '🎪 Event Type'
+      description: 'What type of event are you proposing?'
+      options:
+        - 'Workshop/Tutorial'
+        - 'Meetup/Networking'
+        - 'Conference/Summit'
+        - 'Hackathon'
+        - 'Online Webinar'
+        - 'Community Challenge'
+        - 'Social Event'
+        - 'Educational Series'
+        - 'Other'
+    validations:
+      required: true
+
+  - type: input
+    id: event-title
+    attributes:
+      label: '🏷️ Event Title'
+      description: "What's the name of your event?"
+      placeholder: 'Enter the event title'
+    validations:
+      required: true
+
+  - type: textarea
+    id: event-description
+    attributes:
+      label: '📝 Event Description'
+      description: 'Describe the event in detail'
+      placeholder: 'What is this event about? What will participants do/learn?'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: event-format
+    attributes:
+      label: '🌐 Event Format'
+      description: 'How will the event be conducted?'
+      options:
+        - 'In-person'
+        - 'Virtual/Online'
+        - 'Hybrid (both in-person and online)'
+        - 'Asynchronous (participants work at their own pace)'
+    validations:
+      required: true
+
+  - type: input
+    id: proposed-date
+    attributes:
+      label: '📅 Proposed Date(s)'
+      description: 'When would you like to hold this event?'
+      placeholder: "e.g., March 15, 2024 or 'First week of April'"
+    validations:
+      required: false
+
+  - type: input
+    id: duration
+    attributes:
+      label: '⏱️ Duration'
+      description: 'How long will the event last?'
+      placeholder: 'e.g., 2 hours, full day, 3-day workshop'
+    validations:
+      required: false
+
+  - type: input
+    id: expected-attendees
+    attributes:
+      label: '👥 Expected Number of Attendees'
+      description: 'How many people do you expect to participate?'
+      placeholder: 'e.g., 20-30 people, 100+ participants'
+    validations:
+      required: false
+
+  - type: textarea
+    id: target-audience
+    attributes:
+      label: '🎯 Target Audience'
+      description: 'Who is this event for?'
+      placeholder: 'Describe the ideal participants (experience level, interests, etc.)'
+    validations:
+      required: false
+
+  - type: textarea
+    id: agenda-outline
+    attributes:
+      label: '📋 Agenda/Outline'
+      description: "What's the planned agenda or structure?"
+      placeholder: 'Provide a rough outline of what will happen during the event'
+    validations:
+      required: false
+
+  - type: textarea
+    id: speakers-facilitators
+    attributes:
+      label: '🎤 Speakers/Facilitators'
+      description: 'Who will be leading or speaking at this event?'
+      placeholder: 'List potential speakers or if you need help finding them'
+    validations:
+      required: false
+
+  - type: textarea
+    id: resources-needed
+    attributes:
+      label: '🛠️ Resources Needed'
+      description: 'What support or resources would you need?'
+      placeholder: 'Platform access, promotional support, funding, volunteers, etc.'
+    validations:
+      required: false
+
+  - type: textarea
+    id: budget-considerations
+    attributes:
+      label: '💰 Budget Considerations'
+      description: 'Are there any costs associated with this event?'
+      placeholder: 'Venue, platform costs, speaker fees, materials, etc.'
+    validations:
+      required: false
+
+  - type: dropdown
+    id: organizer-role
+    attributes:
+      label: '👤 Your Role'
+      description: "What's your role in organizing this event?"
+      options:
+        - 'I want to lead/organize this event'
+        - 'I want to co-organize with others'
+        - "I'm suggesting the idea but need organizers"
+        - 'I want to help/volunteer'
+        - 'Just sharing the idea'
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: '📚 Additional Information'
+      description: 'Any other relevant details?'
+      placeholder: 'Previous experience, similar events, special requirements, etc.'
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: event-commitment
+    attributes:
+      label: '📝 Event Planning Checklist'
+      description: 'Please confirm:'
+      options:
+        - label: 'I understand that community events require coordination and planning'
+          required: true
+        - label: "I'm committed to following the Code of Conduct for all event activities"
+          required: true
+        - label: "I'm open to collaborating with other community members"
+          required: true
+        - label: 'I will help promote the event if it moves forward'
+          required: false

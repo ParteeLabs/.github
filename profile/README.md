@@ -1,7 +1,7 @@
 # ParteeLabs Community 🚀
 
-[![GitHub issues](https://img.shields.io/github/issues/ParteeLabs/community)](https://github.com/ParteeLabs/community/issues)
-[![GitHub discussions](https://img.shields.io/github/discussions/ParteeLabs/community)](https://github.com/ParteeLabs/community/discussions)
+[![GitHub issues](https://img.shields.io/github/issues/ParteeLabs/.github)](https://github.com/ParteeLabs/.github/issues)
+[![GitHub discussions](https://img.shields.io/github/discussions/ParteeLabs/.github)](https://github.com/orgs/ParteeLabs/discussions)
 [![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-blue.svg)](CODE_OF_CONDUCT.md)
 
 Welcome to the **ParteeLabs Community** repository! 🎉 This is the central hub for community discussions, idea sharing, collaboration opportunities, and everything that brings our developer community together.
@@ -23,7 +23,7 @@ This community repository serves as:
 1. **⭐ Star this repository** to stay updated
 2. **👀 Watch** the repository for notifications
 3. **📖 Read** our [Code of Conduct](CODE_OF_CONDUCT.md)
-4. **🏷️ Check out** existing [issues](https://github.com/ParteeLabs/community/issues) and [discussions](https://github.com/ParteeLabs/community/discussions)
+4. **🏷️ Check out** existing [issues](https://github.com/ParteeLabs/.github/issues) and [discussions](https://github.com/orgs/ParteeLabs/discussions)
 5. **🎯 Jump in** by creating your first issue or joining a discussion!
 
 ## 📋 How to Participate
@@ -40,20 +40,20 @@ We have structured issue templates to make participation easy:
 | ❓ **Question & Support**   | You need help or have questions       | "How to contribute to ParteeLabs?" |
 | 🎉 **Community Event**      | You want to organize/propose an event | "Monthly developer meetup"         |
 
-**👉 [Create a new issue](https://github.com/ParteeLabs/community/issues/new/choose)**
+**👉 [Create a new issue](https://github.com/ParteeLabs/.github/issues/new/choose)**
 
 ### 💬 Join Discussions
 
 For longer conversations and community-wide topics:
 
-**👉 [Browse Discussions](https://github.com/ParteeLabs/community/discussions)**
+**👉 [Browse Discussions](https://github.com/orgs/ParteeLabs/discussions)**
 
 ## 🛠️ For Developers
 
 ### Repository Structure
 
 ```
-community/
+root/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/          # Issue templates for structured submissions
 │   │   ├── 01-idea-request.yml
@@ -145,10 +145,10 @@ git push origin feature/your-improvement
 
 ### 📚 Essential Links
 
-- [ParteeLabs Website](https://parteelabs.com)
+- [ParteeLabs Website](https://parteelabs.github.io)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [GitHub Discussions](https://github.com/ParteeLabs/community/discussions)
-- [All Issues](https://github.com/ParteeLabs/community/issues)
+- [GitHub Discussions](https://github.com/orgs/ParteeLabs/discussions)
+- [All Issues](https://github.com/ParteeLabs/.github/issues)
 
 ### 🏆 Recognition
 
@@ -164,9 +164,9 @@ We believe in recognizing all forms of contribution:
 
 Want to see our community growth? Check out:
 
-- [Community Insights](https://github.com/ParteeLabs/community/pulse)
-- [Contributors](https://github.com/ParteeLabs/community/graphs/contributors)
-- [Traffic](https://github.com/ParteeLabs/community/graphs/traffic)
+- [Community Insights](https://github.com/ParteeLabs/.github/pulse)
+- [Contributors](https://github.com/ParteeLabs/.github/graphs/contributors)
+- [Traffic](https://github.com/ParteeLabs/.github/graphs/traffic)
 
 ## 🚀 What's Next?
 
@@ -178,12 +178,12 @@ Want to see our community growth? Check out:
 
 ## 📞 Need Help?
 
-- **General Questions**: [Create a Question Issue](https://github.com/ParteeLabs/community/issues/new?template=04-question-support.yml)
-- **Ideas**: [Share an Idea](https://github.com/ParteeLabs/community/issues/new?template=01-idea-request.yml)
-- **Discussions**: [Start a Discussion](https://github.com/ParteeLabs/community/discussions)
+- **General Questions**: [Create a Question Issue](https://github.com/ParteeLabs/.github/issues/new?template=04-question-support.yml)
+- **Ideas**: [Share an Idea](https://github.com/ParteeLabs/.github/issues/new?template=01-idea-request.yml)
+- **Discussions**: [Start a Discussion](https://github.com/orgs/ParteeLabs/discussions)
 
 ---
 
 **Made with ❤️ by the ParteeLabs Community**
 
-_Ready to get started? [Create your first issue](https://github.com/ParteeLabs/community/issues/new/choose) or [join a discussion](https://github.com/ParteeLabs/community/discussions)!_
+_Ready to get started? [Create your first issue](https://github.com/ParteeLabs/.github/issues/new/choose) or [join a discussion](https://github.com/orgs/ParteeLabs/discussions)!_

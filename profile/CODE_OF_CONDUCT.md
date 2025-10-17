@@ -124,4 +124,4 @@ For answers to common questions about this code of conduct, see the FAQ at [http
 
 If you have questions about this Code of Conduct, please contact us through:
 
-- GitHub Discussions: [https://github.com/ParteeLabs/community/discussions](https://github.com/ParteeLabs/community/discussions)
+- GitHub Discussions: [https://github.com/orgs/ParteeLabs/discussions](https://github.com/orgs/ParteeLabs/discussions)

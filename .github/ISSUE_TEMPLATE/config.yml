@@ -4,11 +4,11 @@ contact_links:
     url: https://parteelabs.com
     about: Visit our main website to learn more about ParteeLabs
   - name: 💬 GitHub Discussions
-    url: https://github.com/ParteeLabs/community/discussions
+    url: https://github.com/orgs/ParteeLabs/discussions
     about: For longer conversations and community discussions
   - name: 📧 Contact Us
-    url: https://github.com/ParteeLabs/community/discussions/categories/general
+    url: https://github.com/orgs/ParteeLabs/discussions/categories/general
     about: Reach out through discussions for community matters
   - name: 📋 Code of Conduct
-    url: https://github.com/ParteeLabs/community/blob/main/CODE_OF_CONDUCT.md
+    url: https://github.com/ParteeLabs/.github/blob/main/CODE_OF_CONDUCT.md
     about: Review our community guidelines and code of conduct
